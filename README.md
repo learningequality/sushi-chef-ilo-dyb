@@ -1,5 +1,7 @@
 # sushi-chef-ilo-dyb
-Import content for "ILO Digitalize Your Business" courses 
+Import content for "Digitalise your business" courses from International Labour Organization (ILO)
+
+https://360.articulate.com/review/content/7dc742aa-98e1-49c0-a0cf-1ac4d54e30a0/review
 
 This application needs to connect to GDrive to fetch the course contents.
 Before using it, Google cloud credentials must be obtained.
