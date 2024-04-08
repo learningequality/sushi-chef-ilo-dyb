@@ -113,7 +113,7 @@ class ILODYBChef(SushiChef):
                 source_id=f"{course_dir}_id",
                 title=course,
                 categories=categories,
-                grade_levels=levels,
+                grade_levels=grade_levels,
                 derive_thumbnail=True,
                 language=CHANNEL_LANGUAGE,
                 author="International Labour Organization",
@@ -130,7 +130,7 @@ class ILODYBChef(SushiChef):
                     license=CHANNEL_LICENSE,
                     language="en",
                     categories=categories,
-                    grade_levels=levels,
+                    grade_levels=grade_levels,
                 )
                 topic_node.add_child(zip_node)
                 if "docs" in lesson_data.keys():
